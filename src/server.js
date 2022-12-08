@@ -58,7 +58,6 @@ const server = async () => {
             }
         })
 
-
         app.post('/user', async (req, res) => {
             try{
                 let { username, name } = req.body
